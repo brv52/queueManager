@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(145deg, #f0f4f8, #e1ecf4);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+.profile-card {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    width: 100%;
+    animation: fadeIn 0.4s ease-in;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.profile-info h2 {
+    margin: 0;
+}
+
+.settings-button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+}
+
+.settings-button:hover {
+    background-color: #2980b9;
+}
+
+.message.success {
+    background-color: #e0f7e9;
+    border-left: 4px solid #2ecc71;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.queue-section h3 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
